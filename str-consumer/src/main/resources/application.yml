@@ -3,7 +3,7 @@ server:
 
 spring:
   kafka:
-    bootstrap-servers: ${KAFKA_HOST:localhost:29092}
+    bootstrap-servers: ${KAFKA_HOST:localhost:9092}
   datasource:
     url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/kafkadb}
     username: ${SPRING_DATASOURCE_USERNAME:postgres}
