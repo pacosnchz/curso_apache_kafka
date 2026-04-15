@@ -26,3 +26,4 @@ public class MessageEntity {
     public String getContent() { return content; }
     public LocalDateTime getReceivedAt() { return receivedAt; }
 }
+//linea para actualizar en GitHub
