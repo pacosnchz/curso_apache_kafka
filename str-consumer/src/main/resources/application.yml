@@ -1,13 +1,13 @@
 server:
-  port: ${PORT:8100}
+  port: 8100
 
 spring:
   kafka:
-    bootstrap-servers: ${KAFKA_HOST:localhost:9092}
+    bootstrap-servers: localhost:9092
   datasource:
-    url: ${SPRING_DATASOURCE_URL:jdbc:postgresql://localhost:5432/kafkadb}
-    username: ${SPRING_DATASOURCE_USERNAME:postgres}
-    password: ${SPRING_DATASOURCE_PASSWORD:postgres}
+    url: jdbc:postgresql://localhost:5433/kafkadb
+    username: postgres
+    password: postgres
   jpa:
     hibernate:
       ddl-auto: update
